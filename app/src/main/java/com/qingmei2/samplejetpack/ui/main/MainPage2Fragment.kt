@@ -24,7 +24,7 @@ class MainPage2Fragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         btn.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.action_page1)
+            Navigation.findNavController(it).navigateUp()
         }
         btn2.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.action_page3)
