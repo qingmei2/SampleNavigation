@@ -9,15 +9,10 @@ import androidx.navigation.Navigation
 import com.qingmei2.samplejetpack.R
 import kotlinx.android.synthetic.main.fragment_main_page2.*
 
-/**
- * A simple [Fragment] subclass.
- *
- */
 class MainPage2Fragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_main_page2, container, false)
     }
 

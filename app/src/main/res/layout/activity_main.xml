@@ -19,14 +19,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph_main" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fbNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
-        android:src="@android:drawable/ic_media_next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
 </android.support.constraint.ConstraintLayout>

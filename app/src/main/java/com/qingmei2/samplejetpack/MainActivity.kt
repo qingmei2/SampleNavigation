@@ -11,13 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        fbNext.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
-        }
     }
 
     override fun onSupportNavigateUp() =
             findNavController(this, R.id.my_nav_host_fragment).navigateUp()
-
 }
